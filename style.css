@@ -2,10 +2,6 @@ body {
   max-width: 500px;
   margin: auto;
   background-image: url("./imges/header-illsutration-mobile.svg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .header-container {
@@ -73,14 +69,19 @@ body {
   margin: 58px 0px;
 }
 
-.headline-container img {
+.icons {
+  display: flex;
+  justify-content: space-between;
   position: static;
   width: 170.17px;
   height: 20px;
   left: 102.42px;
   top: 536px;
-  flex: none;
   order: 2;
   flex-grow: 0;
   margin: 58px 0px;
+}
+
+.icons li {
+  list-style: none;
 }
