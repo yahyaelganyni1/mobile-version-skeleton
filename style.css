@@ -4,7 +4,7 @@ body {
   background-image: url("./imges/header-illsutration-mobile.svg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: top center;
+  background-position: 0 70px;
 }
 a {
   text-decoration: none;
@@ -90,7 +90,8 @@ li {
   top: 536px;
   order: 2;
   flex-grow: 0;
-  margin: 58px 0px;
+  margin-top: 40px;
+  padding-left: 0;
 }
 
 .icons li {
@@ -105,15 +106,12 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
-  margin-bottom: 3em;
 }
 .theline {
   width: 48px;
   height: 4px;
   background: #36b37e;
   border-radius: 24px;
-  margin-top: 3em;
   margin-bottom: 4em;
 }
 .midel-part h1 {
@@ -127,7 +125,7 @@ li {
 
   color: #172b4d;
 }
-.the-cards {
+.the-main-section {
   display: grid;
   grid-template-rows: repeat(3, auto);
   align-items: center;
@@ -164,6 +162,7 @@ li {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  padding: 0%;
 }
 
 .card-container ul li {
@@ -171,11 +170,12 @@ li {
   border-radius: 4px;
   padding: 8px 12px;
   margin: 5px;
+  font-size: 12px;
 }
 
-.card-container button {
+.card-container span {
   width: 122px;
-  height: 48px;
+  height: 32px;
   background: #36b37f;
   border-radius: 4px;
   font-family: Inter;
@@ -187,6 +187,9 @@ li {
   border-color: #36b37f;
   margin-bottom: 2em;
   margin-top: 2em;
+  text-align: center;
+  padding-top: 10px;
+  cursor: pointer;
 }
 
 .about-me {
@@ -195,6 +198,10 @@ li {
   justify-content: center;
   align-items: center;
   margin-bottom: 3em;
+  background-image: url(./imges/icons/illustration-\ about\ me-\ mobile.svg),
+    url(./imges/icons/Mask\ Group.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0, 100% 0;
 }
 .about-me h3 {
   font-family: Inter;
@@ -215,26 +222,25 @@ li {
   width: 90%;
   color: #42526e;
 }
-.about-me button {
+.about-me span {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
-  width: 159px;
+  line-height: 46px;
+  width: 160px;
   height: 48px;
-  left: 96px;
+  left: 106px;
   top: 285px;
   background: #36b37f;
   border-radius: 4px;
   color: #ffffff;
+  text-align: center;
 }
 
 .Languages {
   display: flex;
-  justify-content: center;
   flex-direction: row;
-  width: 100%;
   height: 300px;
   background: #ebf0ee;
   border-radius: 5px;
@@ -243,15 +249,20 @@ li {
   margin-right: auto;
   justify-content: center;
   margin-bottom: 3em;
+  padding: 1em;
 }
 .background-Languages h3 {
   text-align: center;
+  color: #344563;
 }
 
 .background-Languages ul {
   display: flex;
+  flex-wrap: wrap;
+
   justify-content: center;
   flex-direction: row;
+  padding: 0;
 }
 
 .background-Languages ul li {
