@@ -241,25 +241,38 @@ li {
 .Languages {
   display: flex;
   flex-direction: row;
-  height: 300px;
-  background: #ebf0ee;
+  height: 330px;
+  background: rgb(235, 240, 238);
   border-radius: 5px;
-  width: 80%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
   margin-bottom: 3em;
   padding: 1em;
 }
+background-Languages {
+  display: flex;
+  justify-content: center;
+}
 .background-Languages h3 {
   text-align: center;
+  color: #344563;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
   color: #344563;
 }
 
 .background-Languages ul {
   display: flex;
   flex-wrap: wrap;
-
+  color: #36b37e;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
   justify-content: center;
   flex-direction: row;
   padding: 0;
