@@ -247,8 +247,6 @@ li {
 
 .background-Languages h3 {
   text-align: center;
-  color: #344563;
-  font-family: Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -259,7 +257,6 @@ li {
   display: flex;
   flex-wrap: wrap;
   color: #36b37e;
-  font-family: Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -272,5 +269,4 @@ li {
   border-radius: 4px;
   padding: 8px 12px;
   margin: 5px;
-  background-color: #ffffff;
 }
