@@ -174,12 +174,11 @@ li {
   height: 32px;
   background: #36b37f;
   border-radius: 4px;
-  font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   border-color: #36b37f;
   margin-bottom: 2em;
   margin-top: 2em;
@@ -227,7 +226,7 @@ li {
   top: 285px;
   background: #36b37f;
   border-radius: 4px;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
 
