@@ -113,7 +113,6 @@ ul {
   line-height: 28px;
   text-align: center;
   color: #172b4d;
-  margin: 58px 0px;
 }
 
 .icons {
@@ -217,8 +216,7 @@ ul {
   justify-content: center;
   align-items: center;
   margin-bottom: 3em;
-  background-image: url(./imges/icons/illustration-\ about\ me-\ mobile.svg),
-    url(./imges/icons/Mask\Group.svg);
+  background-image: url(./imges/icons/illustration-\ about\ me-\ mobile.svg);
   background-repeat: no-repeat;
   background-position: 0 0, 100% 0;
 }
