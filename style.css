@@ -243,7 +243,7 @@ li {
   flex-direction: row;
   height: 330px;
   background: rgb(235, 240, 238);
-  border-radius: 5px;
+  border-radius: 6px;
   width: 85%;
   margin-left: auto;
   margin-right: auto;
@@ -251,10 +251,7 @@ li {
   margin-bottom: 3em;
   padding: 1em;
 }
-background-Languages {
-  display: flex;
-  justify-content: center;
-}
+
 .background-Languages h3 {
   text-align: center;
   color: #344563;
@@ -274,7 +271,6 @@ background-Languages {
   font-weight: 600;
   font-size: 15px;
   justify-content: center;
-  flex-direction: row;
   padding: 0;
 }
 
@@ -284,4 +280,7 @@ background-Languages {
   padding: 8px 12px;
   margin: 5px;
   background-color: #ffffff;
+}
+.Frameworks {
+  padding-left: 3em;
 }
