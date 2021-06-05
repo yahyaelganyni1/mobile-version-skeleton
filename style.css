@@ -16,6 +16,21 @@ li {
   list-style: none;
 }
 
+.about-me span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 46px;
+  width: 160px;
+  height: 48px;
+  left: 106px;
+  top: 285px;
+  background: #36b37f;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+}
+
 .header-container {
   display: flex;
   flex-direction: row;
@@ -46,6 +61,7 @@ li {
   align-items: center;
   margin-bottom: 5em;
 }
+
 ul {
   padding: 0%;
 }
@@ -63,6 +79,7 @@ ul {
   text-align: center;
   color: #172b4d;
 }
+
 .card-container span {
   width: 122px;
   height: 32px;
@@ -97,7 +114,6 @@ ul {
   line-height: 28px;
   text-align: center;
   color: #172b4d;
-  flex: none;
   margin: 58px 0px;
 }
 
@@ -226,21 +242,6 @@ ul {
   text-align: center;
   width: 90%;
   color: #42526e;
-}
-
-.about-me span {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 46px;
-  width: 160px;
-  height: 48px;
-  left: 106px;
-  top: 285px;
-  background: #36b37f;
-  border-radius: 4px;
-  color: #fff;
-  text-align: center;
 }
 
 .Languages {
