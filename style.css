@@ -276,8 +276,11 @@ li {
 }
 
 .background-Languages ul li {
-  background: #ebf0ee;
+  background: #fff;
   border-radius: 4px;
   padding: 8px 12px;
   margin: 5px;
+}
+ul {
+  padding: 0%;
 }
