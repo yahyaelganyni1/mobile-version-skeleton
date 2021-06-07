@@ -196,9 +196,7 @@ ul {
 }
 
 .card-container ul {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
+  float: left;
   padding: 0%;
 }
 
@@ -208,6 +206,7 @@ ul {
   padding: 8px 12px;
   margin: 5px;
   font-size: 12px;
+  display: inline-block;
 }
 
 .about-me {
