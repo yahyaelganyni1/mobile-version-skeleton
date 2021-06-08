@@ -152,7 +152,7 @@ ul {
   margin-bottom: 4em;
 }
 
-.midel-part h1 {
+.midel-part h2 {
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -288,15 +288,14 @@ ul {
   margin: 0 auto;
   margin-bottom: 2em;
 }
+
 .contact-me h3 {
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 3.5em;
   line-height: 63px;
-
   text-align: center;
-
   color: #172b4d;
 }
 
@@ -310,7 +309,7 @@ ul {
 }
 
 .input {
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #d0d9d4;
   box-sizing: border-box;
   border-radius: 4px;
@@ -319,7 +318,7 @@ ul {
 }
 
 #message {
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #d0d9d4;
   box-sizing: border-box;
   border-radius: 4px;
@@ -330,7 +329,6 @@ ul {
 
 #btn {
   width: 122px;
-  height: 32px;
   background: #36b37f;
   border-radius: 4px;
   font-style: normal;
@@ -339,11 +337,17 @@ ul {
   line-height: 24px;
   color: #fff;
   border-color: #36b37f;
-  margin-bottom: 2em;
-  margin-top: 2em;
   text-align: center;
   padding-top: 10px;
   cursor: pointer;
-  margin: 0 auto;
-  margin-top: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3.5em;
+  margin-bottom: 2em;
+  padding-bottom: 0.5em;
+  border: none;
+}
+
+.h2 {
+  display: none;
 }
