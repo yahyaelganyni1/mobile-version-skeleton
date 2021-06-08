@@ -358,18 +358,21 @@ ul {
 
 .icons-end {
   margin: 0 auto;
-  padding: 3em;
-  margin-bottom: 4em;
+  padding: 2em;
+  margin-bottom: 1em;
 }
 
 .end-line {
-  width: 48px;
+  width: 70%;
   height: 4px;
-  background: #36b37e;
+  background: #172b4d;
   border-radius: 24px;
   margin-bottom: 4em;
 }
 
-.contact-img {
-  background-image: url("./imges/icons/illustration-contact-form.svg");
+h4 {
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
 }
