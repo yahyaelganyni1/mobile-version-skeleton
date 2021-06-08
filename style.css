@@ -298,8 +298,7 @@ ul {
   position: static;
   width: 327px;
   height: 363px;
-  font-family: Inter;
-  font-style: normal;
+  font-family: "Inter", sans-serif;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
