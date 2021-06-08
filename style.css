@@ -302,7 +302,7 @@ ul {
   color: #172b4d;
 }
 
-.form {
+form {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -373,5 +373,5 @@ h4 {
   line-height: 32px;
   text-align: center;
   color: #42526e;
-  margin-bottom: 6em;
+  margin-bottom: 200px;
 }
