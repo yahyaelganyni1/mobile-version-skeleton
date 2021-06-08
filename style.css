@@ -290,7 +290,7 @@ ul {
 }
 
 .contact-me h3 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 3.5em;
@@ -346,6 +346,10 @@ ul {
   margin-bottom: 2em;
   padding-bottom: 0.5em;
   border: none;
+}
+
+#btn:hover {
+  color: #172b4d;
 }
 
 .h2 {
