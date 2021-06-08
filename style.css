@@ -286,7 +286,6 @@ ul {
   align-content: center;
   width: 90%;
   margin: 0 auto;
-  margin-bottom: 2em;
   background-image: url(./imges/icons/illustration-contact-form.svg);
   background-repeat: no-repeat;
   background-size: 17%;
@@ -346,7 +345,7 @@ ul {
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 3.5em;
+  margin-top: 1.5em;
   margin-bottom: 2em;
   padding-bottom: 0.5em;
   border: none;
@@ -358,16 +357,15 @@ ul {
 
 .icons-end {
   margin: 0 auto;
-  padding: 2em;
   margin-bottom: 1em;
 }
 
 .end-line {
-  width: 70%;
+  width: 30%;
   height: 4px;
   background: #172b4d;
   border-radius: 24px;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
 }
 
 h4 {
@@ -375,4 +373,5 @@ h4 {
   line-height: 32px;
   text-align: center;
   color: #42526e;
+  margin-bottom: 6em;
 }
