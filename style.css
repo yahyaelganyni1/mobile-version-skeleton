@@ -352,10 +352,17 @@ ul {
   color: #172b4d;
 }
 
-.h2 {
-  display: none;
-}
-
 .icons-end {
   margin: 0 auto;
+
+  padding: 3em;
+  margin-bottom: 4em;
+}
+
+.end-line {
+  width: 48px;
+  height: 4px;
+  background: #36b37e;
+  border-radius: 24px;
+  margin-bottom: 4em;
 }
