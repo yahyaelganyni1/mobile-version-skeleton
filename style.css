@@ -287,6 +287,10 @@ ul {
   width: 90%;
   margin: 0 auto;
   margin-bottom: 2em;
+  background-image: url(./imges/icons/illustration-contact-form.svg);
+  background-repeat: no-repeat;
+  background-size: 17%;
+  background-position: right 90%;
 }
 
 .contact-me h3 {
@@ -364,4 +368,8 @@ ul {
   background: #36b37e;
   border-radius: 24px;
   margin-bottom: 4em;
+}
+
+.contact-img {
+  background-image: url("./imges/icons/illustration-contact-form.svg");
 }
