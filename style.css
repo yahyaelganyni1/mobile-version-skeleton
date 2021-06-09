@@ -31,6 +31,7 @@ li {
   margin-top: 2em;
   margin-bottom: 15em;
 }
+
 .header-desctop ul li a {
   margin: 1.5em;
 }
@@ -60,7 +61,6 @@ li {
 .headline-container h1 {
   width: 70%;
   height: 114px;
-  font-family: Inter;
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
@@ -129,7 +129,6 @@ li {
 }
 
 .midel-part h2 {
-  font-family: inter;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -219,22 +218,23 @@ li {
   font-size: 20px;
   line-height: 32px;
   text-align: center;
-  width: 90%;
+  width: 57%;
   color: #42526e;
 }
-
+.tech {
+  display: flex;
+  padding: 0%;
+  justify-content: space-around;
+}
 .Languages {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-content: center;
   height: 330px;
   background: rgb(235, 240, 238);
   border-radius: 6px;
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
-  margin-bottom: 3em;
-  padding: 1em;
+  width: 70%;
+  margin: 3em;
 }
 
 .background-Languages h3 {
@@ -251,21 +251,26 @@ li {
   color: #36b37e;
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 1em;
   justify-content: center;
   padding: 0;
 }
 
 .background-Languages ul li {
   background: #fff;
-  border-radius: 4px;
-  padding: 8px 12px;
+  border-radius: 10px;
+  padding: 8px;
   margin: 5px;
+}
+.background-Languages img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .contact-me {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-evenly;
   align-content: center;
   width: 90%;
@@ -279,12 +284,11 @@ li {
 .contact-me h3 {
   position: static;
   width: 327px;
-  height: 363px;
+  height: 50%;
   font-family: "Inter", sans-serif;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 52px;
-  text-align: center;
   color: #172b4d;
   flex: none;
   margin: 0 auto;
@@ -307,6 +311,10 @@ form {
   border-radius: 4px;
   padding: 1em;
   margin-bottom: 1em;
+}
+
+.names input {
+  width: 49%;
 }
 
 #message {
@@ -332,12 +340,11 @@ form {
   text-align: center;
   padding-top: 10px;
   cursor: pointer;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 1.5em;
   margin-bottom: 2em;
   padding-bottom: 0.5em;
   border: none;
+  margin: 0% auto;
 }
 
 #btn:hover {
@@ -350,8 +357,8 @@ form {
 }
 
 .end-line {
-  width: 30%;
-  height: 4px;
+  width: 100%;
+  height: 1px;
   background: #172b4d;
   border-radius: 24px;
   margin-bottom: 1em;
@@ -364,10 +371,11 @@ h4 {
   color: #42526e;
   margin-bottom: 200px;
 }
+.email {
+  display: none;
+}
 
 @media (max-width: 500px) {
-  @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
-
   body {
     padding: 0%;
     margin: 0;
