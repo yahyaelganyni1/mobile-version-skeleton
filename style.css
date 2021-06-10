@@ -3,15 +3,23 @@
 body {
   padding: 0%;
   margin: 0;
+}
+
+.bg-header-img {
   background-image: url("./imges/icons/bg-disktop.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
   background-position: top center;
+  background-size: cover;
+  height: 150vh;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+ul {
+  padding: 0;
+  margin: 0;
 }
 
 li {
@@ -28,8 +36,8 @@ li {
   justify-content: center;
   font-size: 1em;
   font-style: normal;
-  margin-top: 2em;
-  margin-bottom: 15em;
+  margin: 0%;
+  padding-top: 1em;
 }
 
 .header-desctop ul li a {
@@ -55,7 +63,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 3em;
+  margin-top: 10em;
 }
 
 .headline-container h1 {
@@ -63,7 +71,7 @@ li {
   height: 114px;
   font-style: normal;
   font-weight: 800;
-  font-size: 48px;
+  font-size: 4em;
   line-height: 68px;
   text-align: center;
   color: #172b4d;
@@ -117,12 +125,10 @@ li {
 .midel-part br {
   display: none;
 }
-
+/* 
 .dropdown-btn {
-  display: block;
   margin: 0 auto;
-  margin-bottom: 20em;
-}
+} */
 
 .theline {
   display: none;
@@ -147,7 +153,11 @@ li {
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(3, auto);
+  justify-items: center;
   flex-wrap: wrap;
+  padding-bottom: 5em;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .card-container {
@@ -197,16 +207,17 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 3em;
-  background-image: url(./imges/icons/illustration-\ about\ me-\ mobile.svg);
+  margin-bottom: 0.5em;
+  background-image: url(./imges/icons/bg-aboutme2.svg),
+    url(./imges/icons/bg-aboutme1.svg);
   background-repeat: no-repeat;
-  background-position: 0 0, 100% 0;
+  background-position: 0% 103%, 100% 0%;
 }
 
 .about-me h3 {
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 3em;
   line-height: 52px;
   text-align: center;
   color: #172b4d;
@@ -225,6 +236,7 @@ li {
   display: flex;
   padding: 0%;
   justify-content: space-around;
+  margin-bottom: 8em;
 }
 .Languages {
   display: flex;
@@ -273,26 +285,28 @@ li {
   flex-direction: row;
   justify-content: space-evenly;
   align-content: center;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   background-image: url(./imges/icons/illustration-contact-form.svg);
   background-repeat: no-repeat;
   background-size: 17%;
   background-position: right 90%;
+  padding-bottom: 11em;
 }
 
 .contact-me h3 {
   position: static;
-  width: 327px;
-  height: 50%;
+  width: 40%;
   font-family: "Inter", sans-serif;
   font-weight: bold;
-  font-size: 30px;
-  line-height: 52px;
+  font-size: 2.5em;
+  line-height: 2.3em;
   color: #172b4d;
   flex: none;
   margin: 0 auto;
-  margin-bottom: 2em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  text-align: left;
 }
 
 form {
@@ -300,7 +314,7 @@ form {
   flex-direction: column;
   justify-content: space-evenly;
   align-content: center;
-  width: 90%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -337,14 +351,12 @@ form {
   line-height: 24px;
   color: #fff;
   border-color: #36b37f;
-  text-align: center;
   padding-top: 10px;
   cursor: pointer;
-  margin-top: 1.5em;
-  margin-bottom: 2em;
   padding-bottom: 0.5em;
   border: none;
   margin: 0% auto;
+  margin-right: 100%;
 }
 
 #btn:hover {
@@ -355,13 +367,16 @@ form {
   margin: 0 auto;
   margin-bottom: 1em;
 }
-
-.end-line {
+.end-lin-disktop {
   width: 100%;
   height: 1px;
   background: #172b4d;
   border-radius: 24px;
   margin-bottom: 1em;
+}
+
+.end-line {
+  display: none;
 }
 
 h4 {
@@ -377,12 +392,8 @@ h4 {
 
 @media (max-width: 500px) {
   body {
-    padding: 0%;
+    padding: 0;
     margin: 0;
-    background-image: url("./imges/header-illsutration-mobile.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 0 70px;
   }
 
   a {
@@ -392,6 +403,14 @@ h4 {
 
   li {
     list-style: none;
+  }
+
+  .header-desctop {
+    display: none;
+  }
+
+  .bg-header-img {
+    background-image: none;
   }
 
   .header-desctop {
@@ -441,11 +460,14 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 5em;
+    background-image: url(./imges//icons/bg-mobil.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
   }
 
   ul {
-    padding: 0%;
+    padding: 0;
   }
 
   .headline-container h1 {
@@ -460,6 +482,10 @@ h4 {
     line-height: 52px;
     text-align: center;
     color: #172b4d;
+  }
+
+  .cards {
+    display: flex;
   }
 
   .card-container span {
@@ -520,12 +546,6 @@ h4 {
     flex-direction: column;
   }
 
-  .dropdown-btn {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .theline {
     width: 48px;
     height: 4px;
@@ -544,9 +564,8 @@ h4 {
   }
 
   .the-main-section {
-    display: grid;
-    grid-template-rows: repeat(3, auto);
-    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 
   .card-container {
@@ -597,7 +616,7 @@ h4 {
     justify-content: center;
     align-items: center;
     margin-bottom: 3em;
-    background-image: url(./imges/icons/illustration-\ about\ me-\ mobile.svg);
+    background-image: url(.);
     background-repeat: no-repeat;
     background-position: 0 0, 100% 0;
   }
@@ -619,6 +638,11 @@ h4 {
     text-align: center;
     width: 90%;
     color: #42526e;
+  }
+
+  .tech {
+    display: flex;
+    flex-direction: column;
   }
 
   .Languages {
