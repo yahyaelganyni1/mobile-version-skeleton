@@ -2,7 +2,6 @@
 
 * {
   padding: 0%;
-
   margin: 0;
   box-sizing: border-box;
 }
@@ -13,13 +12,13 @@
   background-position: top center;
   background-size: cover;
   height: 150vh;
-
 }
 
 a {
   text-decoration: none;
   color: inherit;
 }
+
 ul {
   padding: 0;
   margin: 0;
@@ -71,7 +70,6 @@ li {
   flex-direction: column;
   align-items: center;
   margin-top: 10em;
-
 }
 
 .headline-container h1 {
@@ -149,7 +147,6 @@ li {
 }
 
 .midel-part h2 {
-
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -174,7 +171,6 @@ li {
   padding-bottom: 5em;
   width: 90%;
   margin: 0 auto;
-
 }
 
 .card-container {
@@ -225,8 +221,7 @@ li {
   justify-content: center;
   align-items: center;
   margin-bottom: 0.5em;
-  background-image: url(./imges/icons/bg-aboutme2.svg),
-    url(./imges/icons/bg-aboutme1.svg);
+  background-image: url(./imges/icons/bg-aboutme2.svg), url(./imges/icons/bg-aboutme1.svg);
   background-repeat: no-repeat;
   background-position: 0% 103%, 100% 189%;
 }
@@ -239,7 +234,6 @@ li {
   text-align: center;
   color: #172b4d;
   padding-bottom: 1em;
-
 }
 
 .about-me p {
@@ -252,12 +246,14 @@ li {
   color: #42526e;
   margin-bottom: 1.3em;
 }
+
 .tech {
   display: flex;
   padding: 0%;
   justify-content: center;
   margin-bottom: 8em;
 }
+
 .Languages {
   display: flex;
   justify-content: center;
@@ -294,6 +290,7 @@ li {
   padding: 8px;
   margin: 5px;
 }
+
 .background-Languages img {
   margin-left: auto;
   margin-right: auto;
@@ -307,8 +304,7 @@ li {
   justify-content: center;
   align-content: center;
   width: 100%;
-  background-image: url(./imges/icons/Frame.svg),
-    url(./imges//icons/Frame@2x.svg), url(imges/icons/contact-me-img-2.svg);
+  background-image: url(./imges/icons/Frame.svg), url(./imges//icons/Frame@2x.svg), url(imges/icons/contact-me-img-2.svg);
   background-repeat: no-repeat;
   background-position: 0% 100%, 100% 99%, 29% 87%;
   background-size: 10%;
@@ -388,6 +384,7 @@ form {
   margin: 0 auto;
   margin-bottom: 1em;
 }
+
 .end-lin-disktop {
   width: 100%;
   height: 1px;
@@ -412,6 +409,7 @@ h4 {
 }
 
 @media (max-width: 500px) {
+
   body {
     padding: 0;
     margin: 0;
@@ -501,7 +499,6 @@ h4 {
   .headline-container h1 {
     width: 327px;
     height: 192px;
-
     font-size: 2.9em;
   }
 
@@ -562,7 +559,7 @@ h4 {
     display: flex;
     flex-direction: column;
   }
-  
+
   .theline {
     width: 48px;
     height: 4px;
@@ -633,8 +630,7 @@ h4 {
     justify-content: center;
     align-items: center;
     margin-bottom: 3em;
-    background-image: url(./imges/icons/about-bg-1.svg)
-      url(./imges/icons/about-bg-2.svg);
+    background-image: url(./imges/icons/about-bg-1.svg), url(./imges/icons/about-bg-2.svg);
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: 0% 100%, 100% 0;
