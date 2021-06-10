@@ -28,10 +28,6 @@ li {
   list-style: none;
 }
 
-#btn:hover {
-  color: #172b4d;
-}
-
 .header-container {
   display: none;
 }
@@ -72,21 +68,6 @@ li {
   margin-top: 10em;
 }
 
-.headline-container h1 {
-  width: 70%;
-  height: 114px;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 4em;
-  line-height: 68px;
-  text-align: center;
-  color: #172b4d;
-}
-
-.headline-container h1 span {
-  color: #429c4a;
-}
-
 .card-container span {
   width: 6em;
   height: 32px;
@@ -104,6 +85,23 @@ li {
   padding-top: 10px;
   cursor: pointer;
 }
+
+.headline-container h1 {
+  width: 70%;
+  height: 114px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4em;
+  line-height: 68px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.headline-container h1 span {
+  color: #429c4a;
+}
+
+
 
 .headline-container p {
   margin-top: 4em;
@@ -404,12 +402,12 @@ h4 {
   color: #42526e;
   margin-bottom: 200px;
 }
+
 .email {
   display: none;
 }
 
 @media (max-width: 500px) {
-
   body {
     padding: 0;
     margin: 0;
@@ -431,10 +429,6 @@ h4 {
   .bg-header-img {
     background-image: none;
     height: 100vh;
-  }
-
-  .header-desctop {
-    display: none;
   }
 
   .dropdown-btn {
