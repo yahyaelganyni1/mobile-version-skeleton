@@ -13,6 +13,7 @@
   background-position: top center;
   background-size: cover;
   height: 150vh;
+
 }
 
 a {
@@ -70,6 +71,7 @@ li {
   flex-direction: column;
   align-items: center;
   margin-top: 10em;
+
 }
 
 .headline-container h1 {
@@ -147,6 +149,7 @@ li {
 }
 
 .midel-part h2 {
+
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -171,6 +174,7 @@ li {
   padding-bottom: 5em;
   width: 90%;
   margin: 0 auto;
+
 }
 
 .card-container {
@@ -235,6 +239,7 @@ li {
   text-align: center;
   color: #172b4d;
   padding-bottom: 1em;
+
 }
 
 .about-me p {
@@ -557,7 +562,7 @@ h4 {
     display: flex;
     flex-direction: column;
   }
-
+  
   .theline {
     width: 48px;
     height: 4px;
