@@ -315,11 +315,10 @@ li {
   line-height: 2em;
   color: rgb(23, 43, 77);
   flex: 0 0 auto;
-  margin: 0px -2em 0px auto;
+  margin: 0px -4em 0px auto;
   padding-top: 1em;
   padding-bottom: 2em;
   text-align: left;
-  margin-right: -4em;
 }
 
 form {
