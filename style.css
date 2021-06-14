@@ -1,17 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
-body {
+* {
   padding: 0%;
   margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-header-img {
   background-image: url("./imges/icons/bg-disktop.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
   background-position: top center;
+  background-size: cover;
+  height: 150vh;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
 }
 
 li {
@@ -28,9 +38,10 @@ li {
   justify-content: center;
   font-size: 1em;
   font-style: normal;
-  margin-top: 2em;
-  margin-bottom: 15em;
+  margin: 0%;
+  padding-top: 1em;
 }
+
 .header-desctop ul li a {
   margin: 1.5em;
 }
@@ -54,23 +65,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 3em;
-}
-
-.headline-container h1 {
-  width: 70%;
-  height: 114px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 48px;
-  line-height: 68px;
-  text-align: center;
-  color: #172b4d;
-}
-
-.headline-container h1 span {
-  color: #429c4a;
+  margin-top: 10em;
 }
 
 .card-container span {
@@ -91,8 +86,25 @@ li {
   cursor: pointer;
 }
 
+.headline-container h1 {
+  width: 70%;
+  height: 114px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4em;
+  line-height: 68px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.headline-container h1 span {
+  color: #429c4a;
+}
+
 .headline-container p {
-  width: 50%;
+  margin-top: 4em;
+  margin-bottom: 3em;
+  width: 60%;
   font-style: normal;
   font-weight: normal;
   font-size: 1.3em;
@@ -118,10 +130,12 @@ li {
   display: none;
 }
 
+.dropdown-mobil-btn {
+  display: none;
+}
+
 .dropdown-btn {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 20em;
+  width: 100%;
 }
 
 .theline {
@@ -129,12 +143,12 @@ li {
 }
 
 .midel-part h2 {
-  font-family: inter;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
+  padding-bottom: 1.4em;
   color: #172b4d;
 }
 
@@ -148,7 +162,11 @@ li {
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(3, auto);
+  justify-items: center;
   flex-wrap: wrap;
+  padding-bottom: 5em;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .card-container {
@@ -198,19 +216,20 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 3em;
-  background-image: url(./imges/icons/illustration-\ about\ me-\ mobile.svg);
+  margin-bottom: 0.5em;
+  background-image: url(./imges/icons/bg-aboutme2.svg), url(./imges/icons/bg-aboutme1.svg);
   background-repeat: no-repeat;
-  background-position: 0 0, 100% 0;
+  background-position: 0% 103%, 100% 189%;
 }
 
 .about-me h3 {
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 3em;
   line-height: 52px;
   text-align: center;
   color: #172b4d;
+  padding-bottom: 1em;
 }
 
 .about-me p {
@@ -219,22 +238,27 @@ li {
   font-size: 20px;
   line-height: 32px;
   text-align: center;
-  width: 90%;
+  width: 57%;
   color: #42526e;
+  margin-bottom: 1.3em;
+}
+
+.tech {
+  display: flex;
+  padding: 0%;
+  justify-content: center;
+  margin-bottom: 8em;
 }
 
 .Languages {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-content: center;
   height: 330px;
   background: rgb(235, 240, 238);
   border-radius: 6px;
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
-  margin-bottom: 3em;
-  padding: 1em;
+  width: 70%;
+  margin: 3em;
 }
 
 .background-Languages h3 {
@@ -251,52 +275,58 @@ li {
   color: #36b37e;
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 1em;
   justify-content: center;
-  padding: 0;
+  padding: 1em;
 }
 
 .background-Languages ul li {
   background: #fff;
-  border-radius: 4px;
-  padding: 8px 12px;
+  border-radius: 10px;
+  padding: 8px;
   margin: 5px;
+}
+
+.background-Languages img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
 }
 
 .contact-me {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: center;
   align-content: center;
-  width: 90%;
-  margin: 0 auto;
-  background-image: url(./imges/icons/illustration-contact-form.svg);
+  width: 100%;
+  background-image: url(./imges/icons/Frame.svg), url(./imges//icons/Frame2x.svg), url(imges/icons/contact-me-img-2.svg);
   background-repeat: no-repeat;
-  background-size: 17%;
-  background-position: right 90%;
+  background-position: 0% 100%, 100% 86%, 21% 81%;
+  background-size: 10%;
+  padding-bottom: 11em;
 }
 
 .contact-me h3 {
-  position: static;
-  width: 327px;
-  height: 363px;
-  font-family: "Inter", sans-serif;
+  width: 32%;
+  font-family: Inter, sans-serif;
   font-weight: bold;
-  font-size: 40px;
-  line-height: 52px;
-  text-align: center;
-  color: #172b4d;
-  flex: none;
-  margin: 0 auto;
-  margin-bottom: 2em;
+  font-size: 2em;
+  line-height: 2em;
+  color: rgb(23, 43, 77);
+  flex: 0 0 auto;
+  margin: 0 -4em 0 auto;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  text-align: left;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-content: center;
-  width: 90%;
+  width: 40%;
   margin: 0 auto;
 }
 
@@ -307,6 +337,10 @@ form {
   border-radius: 4px;
   padding: 1em;
   margin-bottom: 1em;
+}
+
+.names input {
+  width: 49%;
 }
 
 #message {
@@ -329,13 +363,8 @@ form {
   line-height: 24px;
   color: #fff;
   border-color: #36b37f;
-  text-align: center;
   padding-top: 10px;
   cursor: pointer;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1.5em;
-  margin-bottom: 2em;
   padding-bottom: 0.5em;
   border: none;
 }
@@ -349,12 +378,16 @@ form {
   margin-bottom: 1em;
 }
 
-.end-line {
-  width: 30%;
-  height: 4px;
+.end-lin-disktop {
+  width: 100%;
+  height: 1px;
   background: #172b4d;
   border-radius: 24px;
   margin-bottom: 1em;
+}
+
+.end-line {
+  display: none;
 }
 
 h4 {
@@ -365,16 +398,14 @@ h4 {
   margin-bottom: 200px;
 }
 
-@media (max-width: 500px) {
-  @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+.email {
+  display: none;
+}
 
+@media (max-width: 500px) {
   body {
-    padding: 0%;
+    padding: 0;
     margin: 0;
-    background-image: url("./imges/header-illsutration-mobile.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 0 70px;
   }
 
   a {
@@ -388,6 +419,20 @@ h4 {
 
   .header-desctop {
     display: none;
+  }
+
+  .bg-header-img {
+    background-image: none;
+    height: 100vh;
+  }
+
+  .dropdown-btn {
+    display: none;
+  }
+
+  .dropdown-mobil-btn {
+    display: block;
+    padding-top: 3em;
   }
 
   .about-me span {
@@ -430,28 +475,24 @@ h4 {
   }
 
   .headline-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 5em;
+    background-image: url(./imges//icons/bg-mobil.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 3px;
   }
 
   ul {
-    padding: 0%;
+    padding: 0;
   }
 
   .headline-container h1 {
-    position: static;
     width: 327px;
     height: 192px;
-    left: 24px;
-    top: 64px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 52px;
-    text-align: center;
-    color: #172b4d;
+    font-size: 2.9em;
+  }
+
+  .cards {
+    display: flex;
   }
 
   .card-container span {
@@ -497,10 +538,6 @@ h4 {
     height: 20px;
     left: 102.42px;
     top: 536px;
-    order: 2;
-    flex-grow: 0;
-    margin-top: 40px;
-    padding-left: 0;
   }
 
   .icons li {
@@ -510,12 +547,6 @@ h4 {
   .midel-part {
     display: flex;
     flex-direction: column;
-  }
-
-  .dropdown-btn {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .theline {
@@ -536,9 +567,8 @@ h4 {
   }
 
   .the-main-section {
-    display: grid;
-    grid-template-rows: repeat(3, auto);
-    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 
   .card-container {
@@ -550,12 +580,12 @@ h4 {
     width: 80%;
     margin: 0 auto;
     border-radius: 5px;
-    margin-bottom: 5em;
+    margin-bottom: 1em;
   }
 
   .img {
     width: 100%;
-    height: 400px;
+    height: 200px;
     background: #ebf0ee;
     border-radius: 5px;
   }
@@ -589,28 +619,31 @@ h4 {
     justify-content: center;
     align-items: center;
     margin-bottom: 3em;
-    background-image: url(./imges/icons/illustration-\ about\ me-\ mobile.svg);
+    background-image: url(./imges/icons/about-bg-1.svg), url(./imges/icons/about-bg-2.svg);
+    background-size: 30%;
     background-repeat: no-repeat;
-    background-position: 0 0, 100% 0;
+    background-position: 0% 100%, 100% 0;
   }
 
   .about-me h3 {
-    font-style: normal;
-    font-weight: bold;
     font-size: 40px;
     line-height: 52px;
     text-align: center;
     color: #172b4d;
+    padding-bottom: 1em;
   }
 
   .about-me p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 32px;
-    text-align: center;
     width: 90%;
-    color: #42526e;
+    font-size: 30px;
+    margin-bottom: 1.5em;
+  }
+
+  .tech {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    margin-bottom: 1em;
   }
 
   .Languages {
@@ -656,14 +689,13 @@ h4 {
   .contact-me {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: center;
-    width: 90%;
-    margin: 0 auto;
-    background-image: url(./imges/icons/illustration-contact-form.svg);
+    width: 100%;
+    background-image: url(./imges/icons/contact-bg.svg);
     background-repeat: no-repeat;
     background-size: 17%;
-    background-position: right 90%;
+    background-position: 100% 100%;
   }
 
   .contact-me h3 {
@@ -730,21 +762,23 @@ h4 {
     border: none;
   }
 
-  #btn:hover {
-    color: #172b4d;
-  }
-
   .icons-end {
     margin: 0 auto;
     margin-bottom: 1em;
   }
 
   .end-line {
+    margin: 0 auto;
+    display: block;
     width: 30%;
     height: 4px;
     background: #172b4d;
     border-radius: 24px;
     margin-bottom: 1em;
+  }
+
+  .end-lin-disktop {
+    display: none;
   }
 
   h4 {
