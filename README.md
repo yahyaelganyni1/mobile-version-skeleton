@@ -14,6 +14,10 @@
 
 ## project sample
 
+### disktop
+![screenshot](./imges/Screenshot1.png)
+
+### mobile
 ![screenshot](./imges/Screenshot.png)
 
 ## online version 
