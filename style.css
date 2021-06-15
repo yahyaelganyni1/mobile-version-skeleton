@@ -311,7 +311,7 @@ li {
   justify-content: center;
   align-content: center;
   width: 100%;
-  background-image: url(./imges/icons/Frame.svg), url(./imges//icons/Frame2x.svg), url(imges/icons/contact-me-img-2.svg);
+  background-image: url(./imges/icons/frame.svg), url(./imges//icons/Frame2x.svg), url(imges/icons/contact-me-img-2.svg);
   background-repeat: no-repeat;
   background-position: 0% 100%, 100% 86%, 21% 81%;
   background-size: 10%;
