@@ -316,7 +316,6 @@ li {
 
 .contact-me h3 {
   width: 32%;
-  font-family: "Inter", sans-serif;
   font-weight: bold;
   font-size: 2em;
   line-height: 2em;
@@ -326,7 +325,7 @@ li {
   padding-top: 1em;
   padding-bottom: 2em;
   text-align: left;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
 }
 
 form {
