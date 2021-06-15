@@ -55,7 +55,7 @@ li {
   height: 48px;
   left: 106px;
   top: 285px;
-  background: #36b37f;
+  background: #008552;
   border-radius: 4px;
   color: #fff;
   text-align: center;
@@ -71,7 +71,7 @@ li {
 .card-container span {
   width: 6em;
   height: 32px;
-  background: #36b37f;
+  background: #008552;
   border-radius: 4px;
   font-style: normal;
   font-weight: 500;
@@ -362,7 +362,7 @@ form {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
-  border-color: #36b37f;
+  border-color: #008552;
   padding-top: 10px;
   cursor: pointer;
   padding-bottom: 0.5em;
