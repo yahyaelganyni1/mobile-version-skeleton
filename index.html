@@ -230,8 +230,11 @@
       <h3>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
       <form action="https://formspree.io/f/xvodrpzp" method="POST">
         <div class="names">
-          <input class="input" type="text" name="name" required placeholder="First name" maxlength="30" />
-          <input class="input" type="text" name="name" required placeholder="Last name" maxlength="30" />
+          
+          <label for="first_name"></label>
+          <input class="input" type="text" name="name" id="first_name" required placeholder="First name" maxlength="30" />
+          <label for="last_name"></label>
+          <input class="input" type="text" name="name" id="last_name" required placeholder="Last name" maxlength="30" />
         </div>
         <input class="input" type="email" name="email" required placeholder="Email address" />
         <textarea class="input" name="txtname" rows="7" cols="50" maxlength="500" placeholder="Enter text here"></textarea>
