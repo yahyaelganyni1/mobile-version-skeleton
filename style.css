@@ -150,7 +150,7 @@ li {
   text-align: center;
   padding-bottom: 1.4em;
   color: #172b4d;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
 }
 
 .the-main-section {
@@ -196,7 +196,7 @@ li {
   line-height: 32px;
   color: #3a4a42;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
 }
 
 .card-container ul {
@@ -211,7 +211,7 @@ li {
   margin: 5px;
   font-size: 12px;
   display: inline-block;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
 }
 
 .about-me {
@@ -233,7 +233,7 @@ li {
   text-align: center;
   color: #172b4d;
   padding-bottom: 1em;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
 }
 
 .about-me p {
@@ -245,7 +245,7 @@ li {
   width: 57%;
   color: #42526e;
   margin-bottom: 1.3em;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
 }
 
 .tech {
@@ -272,7 +272,7 @@ li {
   font-weight: 600;
   font-size: 15px;
   color: #344563;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
 }
 
 .background-Languages ul {
@@ -284,7 +284,7 @@ li {
   font-size: 1em;
   justify-content: center;
   padding: 1em;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
 }
 
 .background-Languages ul li {
@@ -316,7 +316,7 @@ li {
 
 .contact-me h3 {
   width: 32%;
-  font-family: Inter, sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: bold;
   font-size: 2em;
   line-height: 2em;
