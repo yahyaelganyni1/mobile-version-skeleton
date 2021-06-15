@@ -95,7 +95,7 @@ li {
   line-height: 68px;
   text-align: center;
   color: #172b4d;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .headline-container h1 span {
@@ -112,8 +112,7 @@ li {
   line-height: 28px;
   text-align: center;
   color: #172b4d;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 
 .icons {
@@ -215,7 +214,6 @@ li {
   font-size: 12px;
   display: inline-block;
   font-family: Inter;
-
 }
 
 .about-me {
