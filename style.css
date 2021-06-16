@@ -38,6 +38,8 @@ li {
   font-style: normal;
   margin: 0%;
   padding-top: 1em;
+  font-family: "Inter", sans-serif;
+  color: #172b4d;
 }
 
 .header-desctop ul li a {
@@ -345,6 +347,7 @@ form {
   border-radius: 4px;
   padding: 1em;
   margin-bottom: 1em;
+  width: 100%;
 }
 
 .names input {
