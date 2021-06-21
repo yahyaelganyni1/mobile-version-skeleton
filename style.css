@@ -427,7 +427,6 @@ h4 {
   }
 
   .header-desctop ul {
-    /* display: unset; */
     display: block;
     background: #fff;
     width: 100%;
@@ -444,7 +443,7 @@ h4 {
 
   .header-desctop ul img {
     position: absolute;
-    top: 50px;
+    top: 55px;
     right: 50px;
   }
 
