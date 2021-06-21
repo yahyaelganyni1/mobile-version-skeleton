@@ -26,6 +26,10 @@ li {
   list-style: none;
 }
 
+.mobile-menu-close-icon {
+  display: none;
+}
+
 .header-container {
   display: none;
 }
@@ -438,6 +442,9 @@ h4 {
     position: absolute;
     top: 0;
     padding-top: 6em;
+  }
+  .mobile-menu-close-icon {
+    display: unset;
   }
 
   .header-desctop ul li {
