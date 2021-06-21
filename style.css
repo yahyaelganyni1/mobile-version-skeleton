@@ -436,6 +436,7 @@ h4 {
     top: 0;
     padding-top: 6em;
   }
+
   .header-desctop ul li {
     margin-bottom: 2em;
     font-size: 2em;
@@ -508,10 +509,6 @@ h4 {
     margin-top: 3px;
   }
 
-  ul {
-    padding: 0;
-  }
-
   .headline-container h1 {
     width: 327px;
     height: 192px;
@@ -565,10 +562,6 @@ h4 {
     height: 20px;
     left: 102.42px;
     top: 536px;
-  }
-
-  .icons li {
-    list-style: none;
   }
 
   .midel-part {
