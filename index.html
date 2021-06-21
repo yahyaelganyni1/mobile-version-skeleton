@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./style.css" />
-    <title>mobile skeleton</title>
+    <title>Yahya Portflio</title>
   </head>
   <body>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -30,6 +30,7 @@
       </header>
       <header class="header-desctop">
         <ul>
+          <img src="./imges/icons/close-btn-mobile.svg" alt="btn" />
           <li><a href="#">Portflio</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
@@ -180,7 +181,8 @@
       <ul class="tech">
         <li class="Languages">
           <div class="background-Languages">
-            <img src="./imges/icons/lang.svg" alt="Icon for the lang part" />
+            <img src="./imges/icons/lang.svg" alt="Icon lang part" />
+
             <div class="the-Languages">
               <h3>Languages</h3>
               <ul>
@@ -195,7 +197,8 @@
         <li class="Languages">
           <div class="background-Languages">
             <div>
-              <img src="./imges/icons/Frame1.svg" alt="Icon for yjr frame part" />
+              <img src="./imges/icons/Frame1.svg" alt="Icon frame part" />
+
               <div class="the-Languages">
                 <h3>Frameworks</h3>
               </div>
@@ -213,7 +216,8 @@
         </li>
         <li class="Languages">
           <div class="background-Languages">
-            <img src="./imges/icons/skils.svg" alt="Icon for the skills part" />
+            <img src="./imges/icons/skils.svg" alt="Icon skills part" />
+
             <div class="the-Languages">
               <h3>Skills</h3>
               <ul>
@@ -232,11 +236,20 @@
       <h3>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
       <form action="https://formspree.io/f/xvodrpzp" method="POST">
         <div class="names">
-          <input class="input" type="text" name="name" required placeholder="First name" maxlength="30" />
-          <input class="input" type="text" name="name" required placeholder="Last name" maxlength="30" />
+          <label for="first_name">
+            <input class="input" type="text" name="name" id="first_name" required placeholder="First name" maxlength="30" />
+          </label>
+          <label for="last_name">
+            <input class="input" type="text" name="name" id="last_name" required placeholder="Last name" maxlength="30" />
+          </label>
         </div>
-        <input class="input" type="email" name="email" required placeholder="Email address" />
-        <textarea class="input" name="txtname" rows="7" cols="50" maxlength="500" placeholder="Enter text here"></textarea>
+        <label for="email">
+          <input class="input" type="email" name="email" id="email" required placeholder="Email address" />
+        </label>
+        <label for="message">
+          <textarea class="input" name="txtname" id="message" rows="7" cols="50" maxlength="500" placeholder="Enter text here"></textarea>
+        </label>
+
         <button id="btn" type="submit">Get in touch</button>
       </form>
     </section>

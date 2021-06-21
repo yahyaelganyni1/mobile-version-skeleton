@@ -53,7 +53,7 @@ li {
   height: 48px;
   left: 106px;
   top: 285px;
-  background: #36b37f;
+  background: #008552;
   border-radius: 4px;
   color: #fff;
   text-align: center;
@@ -69,7 +69,7 @@ li {
 .card-container span {
   width: 6em;
   height: 32px;
-  background: #36b37f;
+  background: #008552;
   border-radius: 4px;
   font-style: normal;
   font-weight: 500;
@@ -279,7 +279,7 @@ li {
 .background-Languages ul {
   display: flex;
   flex-wrap: wrap;
-  color: #36b37e;
+  color: #008552;
   font-style: normal;
   font-weight: 600;
   font-size: 1em;
@@ -363,7 +363,7 @@ form {
 
 #btn {
   width: 122px;
-  background: #36b37f;
+  background: #008552;
   border-radius: 4px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -371,7 +371,7 @@ form {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
-  border-color: #36b37f;
+  border-color: #008552;
   padding-top: 10px;
   cursor: pointer;
   padding-bottom: 0.5em;
@@ -426,8 +426,26 @@ h4 {
     list-style: none;
   }
 
-  .header-desctop {
-    display: none;
+  .header-desctop ul {
+    /* display: unset; */
+    display: block;
+    background: #fff;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    padding-top: 6em;
+  }
+  .header-desctop ul li {
+    margin-bottom: 2em;
+    font-size: 2em;
+    font-weight: 600;
+  }
+
+  .header-desctop ul img {
+    position: absolute;
+    top: 50px;
+    right: 50px;
   }
 
   .bg-header-img {
