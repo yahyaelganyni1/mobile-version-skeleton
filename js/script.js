@@ -10,7 +10,7 @@ mobileMenuIcon.addEventListener('click', () => {
   document.querySelector('.header-desctop').style.display = 'unset';
 });
 
-for (let i = 0; i < menuLink.length; i + i) {
+for (let i = 0; i < menuLink.length; i++) {
   menuLink[i].addEventListener('click', () => {
     document.querySelector('.header-desctop').style.display = 'none';
   });
