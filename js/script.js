@@ -1,17 +1,9 @@
-const mobileMenuCloseIcon = document.querySelector('.mobile-menu-close-icon');
-const mobileMenuIcon = document.querySelector('.mobile-menu-icon');
-const menuLink = document.querySelectorAll('.menu-link');
+const mobileIcon = document.querySelector('.mobile-menu-icon');
+const mobileIconClose = document.querySelector('.mobile-menu-close-icon');
 
-mobileMenuCloseIcon.addEventListener('click', () => {
-  document.querySelector('.header-desctop').style.display = 'none';
+mobileIcon.addEventListener('click', () => {
+  document.getElementById('mobile-menu').style.display = 'unset';
 });
-
-mobileMenuIcon.addEventListener('click', () => {
-  document.querySelector('.header-desctop').style.display = 'unset';
+mobileIconClose.addEventListener('click', () => {
+  document.getElementById('mobile-menu').style.display = 'none';
 });
-
-for (let i = 0; i < menuLink.length; i++) {
-  menuLink[i].addEventListener('click', () => {
-    document.querySelector('.header-desctop').style.display = 'none';
-  });
-}

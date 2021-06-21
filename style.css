@@ -30,10 +30,6 @@ li {
   display: none;
 }
 
-.mobile-menu-close-icon {
-  display: none;
-}
-
 .header-desctop ul {
   display: flex;
   flex-direction: row;
@@ -430,8 +426,8 @@ h4 {
     list-style: none;
   }
 
-  .mobile-menu-close-icon {
-    display: unset;
+  .header-desctop {
+    display: none;
   }
 
   .header-desctop ul {
