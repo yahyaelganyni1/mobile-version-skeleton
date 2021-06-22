@@ -82,6 +82,7 @@ projects.forEach(project =>{
   div.appendChild(h3)
   div.appendChild(ul)
   btn.appendChild(a)
+  btn.classList.add('see-project');
   img.setAttribute('src', project.imgSrc)
   img.classList.add('img')
   div.classList.add('card')
@@ -96,7 +97,6 @@ projects.forEach(project =>{
 });
 
 jsCards.appendChild(ulCards)
-
 
 
 // popup page
@@ -141,12 +141,35 @@ let popupPage = [{
   btn: ['See live', 'See live']
 }]
 
-// header
-let h1 = document.createElement('h1')
-h1.setAttribute('class', 'popup-h1')
+const seeProjectButtons = document.querySelectorAll('.see-project');
+const modalDiv = document.createElement('div');
+const body = document.querySelector('body');
 
-
-   h1.innerText = popupPage.forEach(item => {
-   item.heading
-})
-popupPage.ap
+seeProjectButtons.forEach((btn, index) => {
+  btn.addEventListener("click", function() {
+    let img = document.createElement('img');
+    img.setAttribute('src', popupPage[index].imgSrc);
+    let h3 = document.createElement('h3');
+    h3.textContent = popupPage[index].heading;
+    let ul = document.createElement('ul');
+    popupPage[index].tech.forEach(techItem => {
+      let li = document.createElement('li');
+      li.textContent = techItem;
+      ul.appendChild(li);
+    });
+    let p = document.createElement('p');
+    p.textContent = popupPage[index].p;
+    let btn1 = document.createElement('button');
+    btn1.textContent = popupPage[index].btn[0];
+    let btn2 = document.createElement('button');
+    btn2.textContent = popupPage[index].btn[1];
+    modalDiv.appendChild(img);
+    modalDiv.appendChild(h3);
+    modalDiv.appendChild(ul);
+    modalDiv.appendChild(p);
+    modalDiv.appendChild(btn1);
+    modalDiv.appendChild(btn2);
+    modalDiv.classList.add('mobile-modal');
+    body.appendChild(modalDiv);
+  });
+});

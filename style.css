@@ -430,6 +430,14 @@ h4 {
     list-style: none;
   }
 
+  .mobile-modal {
+    width: 100%;
+    background: white;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+  }
+
   .header-desctop {
     display: none;
   }
