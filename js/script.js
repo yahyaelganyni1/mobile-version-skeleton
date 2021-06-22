@@ -22,44 +22,44 @@ liLinks.forEach((item) => {
 console.log('projects');
 
 
-let projects = [
-  {
-    imgSrc: './imges/popup-img.png',
-    header: 'Multi-Post StoriesGain+Glory' ,
-    techList: ['Ruby on rails','css','JavScript','html'],
-    btn: 'see project'
-  },
-  {
-    imgSrc: './imges/popup-img.png',
-    header: 'Multi-Post StoriesGain+Glory' ,
-    techList: ['Ruby on rails','css','JavScript','html'],
-    btn: 'see project'
-  },
-  {
-    imgSrc: './imges/popup-img.png',
-    header: 'Multi-Post StoriesGain+Glory' ,
-    techList: ['Ruby on rails','css','JavScript','html'],
-    btn: 'see project'
-  },
-  {
-    imgSrc: './imges/popup-img.png',
-    header: 'Multi-Post StoriesGain+Glory' ,
-    techList: ['Ruby on rails','css','JavScript','html'],
-    btn: 'see project'
-  },
-  {
-    imgSrc: './imges/popup-img.png',
-    header: 'Multi-Post StoriesGain+Glory' ,
-    techList: ['Ruby on rails','css','JavScript','html'],
-    btn: 'see project'
-  },
-  {
-    imgSrc: './imges/popup-img.png',
-    header: 'Multi-Post StoriesGain+Glory' ,
-    techList: ['Ruby on rails','css','JavScript','html'],
-    btn: 'see project'
-  }
-];
+// let projects = [
+//   {
+//     imgSrc: './imges/popup-img.png',
+//     header: 'Multi-Post StoriesGain+Glory' ,
+//     techList: ['Ruby on rails','css','JavScript','html'],
+//     btn: 'see project'
+//   },
+//   {
+//     imgSrc: './imges/popup-img.png',
+//     header: 'Multi-Post StoriesGain+Glory' ,
+//     techList: ['Ruby on rails','css','JavScript','html'],
+//     btn: 'see project'
+//   },
+//   {
+//     imgSrc: './imges/popup-img.png',
+//     header: 'Multi-Post StoriesGain+Glory' ,
+//     techList: ['Ruby on rails','css','JavScript','html'],
+//     btn: 'see project'
+//   },
+//   {
+//     imgSrc: './imges/popup-img.png',
+//     header: 'Multi-Post StoriesGain+Glory' ,
+//     techList: ['Ruby on rails','css','JavScript','html'],
+//     btn: 'see project'
+//   },
+//   {
+//     imgSrc: './imges/popup-img.png',
+//     header: 'Multi-Post StoriesGain+Glory' ,
+//     techList: ['Ruby on rails','css','JavScript','html'],
+//     btn: 'see project'
+//   },
+//   {
+//     imgSrc: './imges/popup-img.png',
+//     header: 'Multi-Post StoriesGain+Glory' ,
+//     techList: ['Ruby on rails','css','JavScript','html'],
+//     btn: 'see project'
+//   }
+// ];
 
 
 
