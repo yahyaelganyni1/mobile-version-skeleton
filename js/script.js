@@ -21,6 +21,84 @@ liLinks.forEach((item) => {
 const cards = document.querySelector('.the-main-section')
 
 
+let projects = [
+  {
+    imgSrc: './imges/popup-img.png',
+    header: 'Multi-Post StoriesGain+Glory' ,
+    techList: ['Ruby on rails','css','JavScript','html'],
+    btn: 'see project'
+  },
+  {
+    imgSrc: './imges/popup-img.png',
+    header: 'Multi-Post StoriesGain+Glory' ,
+    techList: ['Ruby on rails','css','JavScript','html'],
+    btn: 'see project'
+  },
+  {
+    imgSrc: './imges/popup-img.png',
+    header: 'Multi-Post StoriesGain+Glory' ,
+    techList: ['Ruby on rails','css','JavScript','html'],
+    btn: 'see project'
+  },
+  {
+    imgSrc: './imges/popup-img.png',
+    header: 'Multi-Post StoriesGain+Glory' ,
+    techList: ['Ruby on rails','css','JavScript','html'],
+    btn: 'see project'
+  },
+  {
+    imgSrc: './imges/popup-img.png',
+    header: 'Multi-Post StoriesGain+Glory' ,
+    techList: ['Ruby on rails','css','JavScript','html'],
+    btn: 'see project'
+  },
+  {
+    imgSrc: './imges/popup-img.png',
+    header: 'Multi-Post StoriesGain+Glory' ,
+    techList: ['Ruby on rails','css','JavScript','html'],
+    btn: 'see project'
+  }
+];
+
+
+const ulCards = document.createElement('ul')
+const jsCards = document.querySelector('.js-cards')
+ulCards.classList.add('cards')
+
+
+projects.forEach(project =>{
+  let li = document.createElement('li')
+  let img = document.createElement('img')
+  let h3 = document.createElement('h3')
+  let ul = document.createElement('ul')
+  let btn = document.createElement('span')
+  let a = document.createElement('a')
+  let div = document.createElement('div')
+  li.classList.add('card-container')
+  li.appendChild(img)
+  li.appendChild(h3)
+  li.appendChild(div)
+  li.appendChild(btn)
+  div.appendChild(h3)
+  div.appendChild(ul)
+  btn.appendChild(a)
+  img.setAttribute('src', project.imgSrc)
+  img.classList.add('img')
+  div.classList.add('card')
+  h3.textContent = project.header
+  project.techList.forEach(tech => {
+    let li = document.createElement('li')
+    ul.appendChild(li)
+    li.textContent = tech
+  })
+  btn.textContent = project.btn
+  ulCards.appendChild(li)
+});
+
+jsCards.appendChild(ulCards)
+
+
+
 // popup page
 
 const popup = document.querySelectorAll('.popup')
@@ -71,5 +149,4 @@ h1.setAttribute('class', 'popup-h1')
    h1.innerText = popupPage.forEach(item => {
    item.heading
 })
-
 popupPage.ap
