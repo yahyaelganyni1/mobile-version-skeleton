@@ -144,12 +144,11 @@ li {
 }
 
 .popup-modal .main-img-popup {
-  width: 90%;
-  padding-top: 0;
-  padding-bottom: 0;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 1em;
 }
 
 .main-img-popup-mobil {
@@ -159,15 +158,18 @@ li {
 .close-btn {
   display: block;
   margin-left: auto;
+  margin-right: 13px;
   padding: 0.4em;
   cursor: pointer;
+  padding-bottom: 0px;
+  padding-top: 0.5em;
 }
 
 .popup-modal h3 {
   color: #172b4d;
   font-size: 1.8em;
   padding: 14px;
-  padding-top: 0;
+  padding-top: 10px;
 }
 
 .popup-modal ul {
@@ -195,10 +197,15 @@ li {
   font-family: 'Inter', sans-serif;
 }
 
+.popup-body {
+  padding-left: 0.6em;
+}
+
 .live-btn {
   display: flex;
   height: 100%;
   margin-right: 1.5em;
+  padding-top: 10px;
 }
 
 .live-btn button {
@@ -211,12 +218,18 @@ li {
   font-size: 13px;
   color: #fff;
   border-color: #008552;
-  padding-top: 4px;
   cursor: pointer;
   padding-bottom: 0.3em;
   border: none;
   margin: 0.4em;
   line-height: 22px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.live-btn button img {
+  align-items: center;
 }
 
 .display-non-popup {
