@@ -94,8 +94,6 @@ jsCards.appendChild(ulCards);
 
 // popup page
 
-const popup = document.querySelectorAll('.popup');
-
 const popupPage = [
   {
     imgSrc: './imges/popup-img.png',
@@ -179,7 +177,7 @@ modalDiv.classList.add('popup-modal');
 modalDivbg.classList.add('popup-modal-bg');
 
 seeProjectButtons.forEach((btn, index) => {
-  btn.addEventListener('click', function () {
+  btn.addEventListener('click', () => {
     const closeBtn = document.createElement('img');
     closeBtn.setAttribute('src', popupPage[index].closeBtn);
     closeBtn.classList.add('close-btn');
