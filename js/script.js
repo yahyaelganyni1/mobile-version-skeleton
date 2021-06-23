@@ -206,10 +206,12 @@ seeProjectButtons.forEach((btn, index) => {
     bodyAndBtn.classList.add('body-and-btn');
     const p = document.createElement('p');
     p.textContent = popupPage[index].p;
+    const btna = btn[0];
+    const btnb = btn[1];
     const btn1 = document.createElement('button');
-    btn1.textContent = popupPage[index].btn[0];
+    btn1.textContent = popupPage[index].btna;
     const btn2 = document.createElement('button');
-    btn2.textContent = popupPage[index].btn[1];
+    btn2.textContent = popupPage[index].btnb;
     modalDivbg.querySelectorAll('*').forEach((el) => {
       el.remove();
     });
