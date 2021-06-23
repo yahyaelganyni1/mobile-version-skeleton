@@ -161,7 +161,7 @@ li {
   margin-right: 13px;
   padding: 0.4em;
   cursor: pointer;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   padding-top: 0.5em;
 }
 
@@ -220,12 +220,12 @@ li {
   border-color: #008552;
   cursor: pointer;
   padding-bottom: 0.3em;
+  padding: 5px;
   border: none;
   margin: 0.4em;
   line-height: 22px;
   display: flex;
   justify-content: space-between;
-  padding: 5px;
 }
 
 .live-btn button img {
