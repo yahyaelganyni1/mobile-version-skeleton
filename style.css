@@ -102,7 +102,7 @@ li {
 }
 
 .close-btn-mobile {
-  display: none;
+  display: unset;
 }
 
 .headline-container h1 span {
@@ -552,6 +552,7 @@ h4 {
     background-color: white;
     width: 80%;
     margin: 0 auto;
+    height: fit-content;
   }
 
   .body-and-btn {
@@ -577,7 +578,8 @@ h4 {
   .close-btn-mobile {
     cursor: pointer;
     position: absolute;
-    right: 10px;
+    top: 35px;
+    right: 35px;
   }
 
   .popup-modal h3 {
@@ -606,9 +608,11 @@ h4 {
   .live-btn {
     display: flex;
     height: 100%;
+    padding: 10px;
   }
 
   .live-btn button {
+    width: 100%;
   }
 
   .display-non-popup {
