@@ -219,17 +219,12 @@ li {
   color: #fff;
   border-color: #008552;
   cursor: pointer;
-  padding-bottom: 0.3em;
   padding: 5px;
   border: none;
   margin: 0.4em;
   line-height: 22px;
   display: flex;
   justify-content: space-between;
-}
-
-.live-btn button img {
-  align-items: center;
 }
 
 .display-non-popup {
