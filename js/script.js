@@ -106,9 +106,57 @@ let popupPage = [
     closeBtnMobile: './imges/icons/popup-close-btn-mobile.svg',
     githubIcon: '../imges/icons/github-icon.svg',
     seeLiveIcon: './imges/icons/see-live-icon.svg',
-    heading: 'project titel 6',
+    heading: 'project titel 1',
     tech: ['Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Terminal'],
-    p: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. L orem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    p: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. L orem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took',
+    btn: ['See live', 'See Source'],
+  },
+  {
+    imgSrc: './imges/popup-img.png',
+    imgSrcMobile: './imges/popup-mobile-img.png',
+    closeBtn: './imges/icons/close-btn-popup.svg',
+    closeBtnMobile: './imges/icons/popup-close-btn-mobile.svg',
+    githubIcon: '../imges/icons/github-icon.svg',
+    seeLiveIcon: './imges/icons/see-live-icon.svg',
+    heading: 'project titel 2',
+    tech: ['Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Terminal'],
+    p: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. L orem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took',
+    btn: ['See live', 'See Source'],
+  },
+  {
+    imgSrc: './imges/popup-img.png',
+    imgSrcMobile: './imges/popup-mobile-img.png',
+    closeBtn: './imges/icons/close-btn-popup.svg',
+    closeBtnMobile: './imges/icons/popup-close-btn-mobile.svg',
+    githubIcon: '../imges/icons/github-icon.svg',
+    seeLiveIcon: './imges/icons/see-live-icon.svg',
+    heading: 'project titel 3',
+    tech: ['Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Terminal'],
+    p: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. L orem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took',
+    btn: ['See live', 'See Source'],
+  },
+  {
+    imgSrc: './imges/popup-img.png',
+    imgSrcMobile: './imges/popup-mobile-img.png',
+    closeBtn: './imges/icons/close-btn-popup.svg',
+    closeBtnMobile: './imges/icons/popup-close-btn-mobile.svg',
+    githubIcon: '../imges/icons/github-icon.svg',
+    seeLiveIcon: './imges/icons/see-live-icon.svg',
+    heading: 'project titel 4',
+    tech: ['Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Terminal'],
+    p: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. L orem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took',
+    btn: ['See live', 'See Source'],
+  },
+  {
+    imgSrc: './imges/popup-img.png',
+    imgSrcMobile: './imges/popup-mobile-img.png',
+    closeBtn: './imges/icons/close-btn-popup.svg',
+    closeBtnMobile: './imges/icons/popup-close-btn-mobile.svg',
+    githubIcon: '../imges/icons/github-icon.svg',
+    seeLiveIcon: './imges/icons/see-live-icon.svg',
+    heading: 'project titel 5',
+    tech: ['Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Terminal'],
+    p: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. L orem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took',
     btn: ['See live', 'See Source'],
   },
   {
@@ -120,63 +168,17 @@ let popupPage = [
     seeLiveIcon: './imges/icons/see-live-icon.svg',
     heading: 'project titel 6',
     tech: ['Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Terminal'],
-    p: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. L orem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    btn: ['See live', 'See Source'],
-  },
-  {
-    imgSrc: './imges/popup-img.png',
-    imgSrcMobile: './imges/popup-mobile-img.png',
-    closeBtn: './imges/icons/close-btn-popup.svg',
-    closeBtnMobile: './imges/icons/popup-close-btn-mobile.svg',
-    githubIcon: '../imges/icons/github-icon.svg',
-    seeLiveIcon: './imges/icons/see-live-icon.svg',
-    heading: 'project titel 6',
-    tech: ['Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Terminal'],
-    p: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. L orem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    btn: ['See live', 'See Source'],
-  },
-  {
-    imgSrc: './imges/popup-img.png',
-    imgSrcMobile: './imges/popup-mobile-img.png',
-    closeBtn: './imges/icons/close-btn-popup.svg',
-    closeBtnMobile: './imges/icons/popup-close-btn-mobile.svg',
-    githubIcon: '../imges/icons/github-icon.svg',
-    seeLiveIcon: './imges/icons/see-live-icon.svg',
-    heading: 'project titel 6',
-    tech: ['Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Terminal'],
-    p: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. L orem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    btn: ['See live', 'See Source'],
-  },
-  {
-    imgSrc: './imges/popup-img.png',
-    imgSrcMobile: './imges/popup-mobile-img.png',
-    closeBtn: './imges/icons/close-btn-popup.svg',
-    closeBtnMobile: './imges/icons/popup-close-btn-mobile.svg',
-    githubIcon: '../imges/icons/github-icon.svg',
-    seeLiveIcon: './imges/icons/see-live-icon.svg',
-    heading: 'project titel 6',
-    tech: ['Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Terminal'],
-    p: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. L orem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    btn: ['See live', 'See Source'],
-  },
-  {
-    imgSrc: './imges/popup-img.png',
-    imgSrcMobile: './imges/popup-mobile-img.png',
-    closeBtn: './imges/icons/close-btn-popup.svg',
-    closeBtnMobile: './imges/icons/popup-close-btn-mobile.svg',
-    githubIcon: '../imges/icons/github-icon.svg',
-    seeLiveIcon: './imges/icons/see-live-icon.svg',
-    heading: 'project titel 6',
-    tech: ['Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Terminal'],
-    p: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. L orem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    p: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. L orem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer',
     btn: ['See live', 'See Source'],
   },
 ];
 
 const seeProjectButtons = document.querySelectorAll('.see-project');
 const modalDiv = document.createElement('div');
+const modalDivbg = document.createElement('div');
 const body = document.querySelector('body');
 modalDiv.classList.add('popup-modal');
+modalDivbg.classList.add('popup-modal-bg');
 
 seeProjectButtons.forEach((btn, index) => {
   btn.addEventListener('click', function () {
@@ -212,6 +214,10 @@ seeProjectButtons.forEach((btn, index) => {
     btn1.textContent = popupPage[index].btn[0];
     let btn2 = document.createElement('button');
     btn2.textContent = popupPage[index].btn[1];
+    modalDivbg.querySelectorAll('*').forEach((el) => {
+      el.remove();
+    });
+    modalDivbg.appendChild(modalDiv);
     modalDiv.appendChild(closeBtn);
     modalDiv.appendChild(closeBtnMobile);
     modalDiv.appendChild(img);
@@ -225,6 +231,16 @@ seeProjectButtons.forEach((btn, index) => {
     liveBtn.appendChild(btn2);
     bodyAndBtn.appendChild(liveBtn);
     modalDiv.appendChild(bodyAndBtn);
-    body.appendChild(modalDiv);
+    body.appendChild(modalDivbg);
+    closeBtn.addEventListener('click', () => {
+      modalDivbg.querySelectorAll('*').forEach((el) => {
+        el.remove();
+      });
+    });
+    closeBtnMobile.addEventListener('click', () => {
+      modalDivbg.querySelectorAll('*').forEach((el) => {
+        el.remove();
+      });
+    });
   });
 });
