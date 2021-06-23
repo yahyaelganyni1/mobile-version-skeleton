@@ -169,6 +169,7 @@ li {
   padding: 14px;
   padding-top: 0;
 }
+
 .popup-modal ul {
   padding: 0;
   padding-left: 10px;
@@ -193,6 +194,7 @@ li {
   padding-top: 5px;
   font-family: 'Inter', sans-serif;
 }
+
 .live-btn {
   display: flex;
   height: 100%;
@@ -546,14 +548,6 @@ h4 {
     list-style: none;
   }
 
-  .popup-modal {
-    width: 100%;
-    background: #fff;
-    position: absolute;
-    top: 0;
-    height: 100vh;
-  }
-
   .header-desctop {
     display: none;
   }
@@ -633,6 +627,7 @@ h4 {
     text-align: left;
     font-family: 'Inter', sans-serif;
   }
+
   .live-btn {
     display: flex;
     height: 100%;
