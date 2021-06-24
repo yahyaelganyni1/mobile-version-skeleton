@@ -253,3 +253,5 @@ seeProjectButtons.forEach((btn, index) => {
     });
   });
 });
+
+// forme validate

@@ -26,6 +26,12 @@ li {
   list-style: none;
 }
 
+#error {
+  color: red;
+  font-size: 1em;
+  font-family: 'Inter', sans-serif;
+}
+
 .mobile-menu-close-icon {
   display: none;
 }
@@ -481,6 +487,10 @@ form {
   width: 49%;
 }
 
+#email {
+  width: 100%;
+}
+
 #message {
   background: #fff;
   border: 1px solid #d0d9d4;
@@ -489,6 +499,7 @@ form {
   padding: 1em;
   padding-bottom: 5em;
   margin-bottom: 1em;
+  width: 100%;
 }
 
 #btn {
