@@ -268,3 +268,27 @@ form.addEventListener('submit', (e) => {
     error.innerText = measasges;
   }
 });
+
+// Local storage
+
+const inputFirstName = document.getElementById('first_name');
+const inputLasttName = document.getElementById('last_name');
+const inputText = document.getElementById('message');
+
+inputFirstName.addEventListener('change', () => {
+  localStorage.setItem('firstName', inputFirstName.value);
+});
+inputLasttName.addEventListener('change', () => {
+  localStorage.setItem('lastName', inputLasttName.value);
+});
+email.addEventListener('change', () => {
+  localStorage.setItem('email', email.value);
+});
+inputText.addEventListener('change', () => {
+  localStorage.setItem('message', inputText.value);
+});
+
+inputFirstName.value = localStorage.getItem('firstName');
+inputLasttName.value = localStorage.getItem('lastName');
+email.value = localStorage.getItem('email');
+inputText.value = localStorage.getItem('message');
