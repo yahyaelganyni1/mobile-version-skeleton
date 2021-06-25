@@ -260,6 +260,15 @@ const email = document.getElementById('email');
 const error = document.getElementById('error');
 const isUpperCase = (string) => /[A-Z]/.test(string);
 
+form.addEventListener('submit', (e) => {
+  const measasges = [];
+  if (isUpperCase(email.value)) {
+    e.preventDefault();
+    measasges.push('email need to be in lowercase');
+    error.innerText = measasges;
+  }
+});
+
 // Local storage
 
 let inputFirstName = document.getElementById('first_name');
