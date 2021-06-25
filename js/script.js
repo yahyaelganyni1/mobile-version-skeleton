@@ -282,3 +282,5 @@ inputFirstName.value = localStorage.getItem('firstName');
 inputLasttName.value = localStorage.getItem('lastName');
 email.value = localStorage.getItem('email');
 inputText.value = localStorage.getItem('message');
+
+console.log(localStorage);
