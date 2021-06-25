@@ -255,3 +255,25 @@ seeProjectButtons.forEach((btn, index) => {
 });
 
 // forme validate
+const form = document.getElementById('form');
+const email = document.getElementById('email');
+const error = document.getElementById('error');
+const isUpperCase = (string) => /[A-Z]/.test(string);
+
+form.addEventListener('submit', (e) => {
+  const measasges = [];
+  if (isUpperCase(email.value)) {
+    e.preventDefault();
+    measasges.push('email need to be in lowercase');
+    error.innerText = measasges;
+  }
+});
+
+// Local storage
+
+console.log(localStorage);
+form.addEventListener('submit', (e) => {
+  const inputEmail = email.value;
+  localStorage.setItem('email', JSON.stringify(inputEmail));
+  email.value = localStorage.getItem();
+});
