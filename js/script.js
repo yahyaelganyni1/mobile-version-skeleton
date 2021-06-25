@@ -271,9 +271,15 @@ form.addEventListener('submit', (e) => {
 
 // Local storage
 
-console.log(localStorage);
-form.addEventListener('submit', (e) => {
-  const inputEmail = email.value;
-  localStorage.setItem('email', JSON.stringify(inputEmail));
-  email.value = localStorage.getItem();
+// console.log(localStorage);
+// form.addEventListener('submit', (e) => {
+//   const inputEmail = email.value;
+//   localStorage.setItem('email', JSON.stringify(inputEmail));
+//   email.value = localStorage.getItem();
+// });
+
+let inputFirstName = document.getElementById('first_name');
+inputFirstName.addEventListener('change', function() {
+  localStorage.setItem('name', inputFirstName.value);
+  console.log(localStorage);
 });
