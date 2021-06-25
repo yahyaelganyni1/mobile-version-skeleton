@@ -260,15 +260,6 @@ const email = document.getElementById('email');
 const error = document.getElementById('error');
 const isUpperCase = (string) => /[A-Z]/.test(string);
 
-form.addEventListener('submit', (e) => {
-  const measasges = [];
-  if (isUpperCase(email.value)) {
-    e.preventDefault();
-    measasges.push('email need to be in lowercase');
-    error.innerText = measasges;
-  }
-});
-
 // Local storage
 
 // console.log(localStorage);
@@ -279,7 +270,22 @@ form.addEventListener('submit', (e) => {
 // });
 
 let inputFirstName = document.getElementById('first_name');
-inputFirstName.addEventListener('change', function() {
-  localStorage.setItem('name', inputFirstName.value);
-  console.log(localStorage);
+let inputLasttName = document.getElementById('last_name');
+let inputText = document.getElementById('message');
+inputFirstName.addEventListener('change', function () {
+  localStorage.setItem('firstName', inputFirstName.value);
 });
+inputLasttName.addEventListener('change', function () {
+  localStorage.setItem('lastName', inputLasttName.value);
+});
+email.addEventListener('change', function () {
+  localStorage.setItem('email', email.value);
+});
+inputText.addEventListener('change', function () {
+  localStorage.setItem('message', inputText.value);
+});
+
+inputFirstName.value = localStorage.getItem('firstName');
+inputLasttName.value = localStorage.getItem('lastName');
+email.value = localStorage.getItem('email');
+inputText.value = localStorage.getItem('message');
