@@ -262,13 +262,6 @@ const isUpperCase = (string) => /[A-Z]/.test(string);
 
 // Local storage
 
-// console.log(localStorage);
-// form.addEventListener('submit', (e) => {
-//   const inputEmail = email.value;
-//   localStorage.setItem('email', JSON.stringify(inputEmail));
-//   email.value = localStorage.getItem();
-// });
-
 let inputFirstName = document.getElementById('first_name');
 let inputLasttName = document.getElementById('last_name');
 let inputText = document.getElementById('message');
