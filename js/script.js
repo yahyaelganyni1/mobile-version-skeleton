@@ -260,15 +260,6 @@ const email = document.getElementById('email');
 const error = document.getElementById('error');
 const isUpperCase = (string) => /[A-Z]/.test(string);
 
-// Local storage
-
-// console.log(localStorage);
-// form.addEventListener('submit', (e) => {
-//   const inputEmail = email.value;
-//   localStorage.setItem('email', JSON.stringify(inputEmail));
-//   email.value = localStorage.getItem();
-// });
-
 let inputFirstName = document.getElementById('first_name');
 let inputLasttName = document.getElementById('last_name');
 let inputText = document.getElementById('message');
@@ -289,3 +280,4 @@ inputFirstName.value = localStorage.getItem('firstName');
 inputLasttName.value = localStorage.getItem('lastName');
 email.value = localStorage.getItem('email');
 inputText.value = localStorage.getItem('message');
+
